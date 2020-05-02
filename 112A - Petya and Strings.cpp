@@ -12,11 +12,6 @@ int main() {
             b[i] += 32;
         }
     }
-    if (a < b) {
-        cout << -1;
-    } else if (a > b) {
-        cout << 1;
-    } else if (a == b) {
-        cout << 0;
-    }
+    
+    cout<< a.compare(b);
 }
